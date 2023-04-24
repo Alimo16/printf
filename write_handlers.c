@@ -19,7 +19,7 @@ int flags, int precision, int width, int size)
 {
 	/* char is stored at left and paddind at buffer's right */
 	int i = 0;
-	char padd = '';
+	char padd = ' ';
 
 	UNUSED(precision);
 	UNUSED(size);
@@ -33,7 +33,7 @@ int flags, int precision, int width, int size)
 	if (width > 1)
 	{
 		buffer[BUFF_SIZE - 1] = '\0';
-		for (int i = 0; i < width - 1; i++)
+		for (i = 0; i < width - 1; i++)
 			buffer[BUFF_SIZE - i - 2] = padd;
 		if (flags & F_MINUS)
 			return (write(1, &buffer[0], 1) +
@@ -64,7 +64,7 @@ int write_number(int is_negative, int ind, char buffer[],
 int flags, int width, int precision, int size)
 {
 	int length = BUFF_SIZE - ind - 1;
-	char padd = '', extra_ch = 0;
+	char padd = ' ', extra_ch = 0;
 
 	UNUSED(size);
 
@@ -153,7 +153,7 @@ int write_num(int ind, char buffer[], int flags,
  * Return: Number of written chars.
  */
 
-int write_unsgnd(int is_negative, ind ind, char buffer[],
+int write_unsgnd(int is_negative, int ind, char buffer[],
 		int flags, int width, int precision, int size)
 {
 	/* The number is stored at the buffer's right and starts at position i */

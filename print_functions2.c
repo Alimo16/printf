@@ -130,7 +130,7 @@ int print_reverse(va_list types, char buffer[],
 		star = "(null)";
 	}
 
-	for (i = 0; star[i], i++)
+	for (i = 0; star[i]; i++)
 		for (i = i - 1; i >= 0; i--)
 		{
 			char z = star[i];
