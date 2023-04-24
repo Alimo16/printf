@@ -5,7 +5,7 @@
  * @format: Formatted string for printing the arguments
  * @i: List of arguments to be printed.
  *
- * Return: size.
+ * Return: Size.
  */
 
 int get_size(const char *format, int *i)
@@ -24,5 +24,4 @@ int get_size(const char *format, int *i)
 		*i = curr_i;
 
 	return (size);
-
 }
