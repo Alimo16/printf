@@ -49,7 +49,7 @@ int flags, int precision, int width, int size)
 /* Write number */
 
 /**
- *  write_number - Prints a string
+ * write_number - Prints a string
  * @is_negative: List of arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
