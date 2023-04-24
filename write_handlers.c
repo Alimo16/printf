@@ -4,12 +4,12 @@
 
 /**
  * handle_write_char - Prints a string
- * @c: char types.
+ * @c: Char types.
  * @buffer: Buffer array to handle print.
- * @flags: calculate available flags.
- * @width: get width.
- * @precision: get precision and specify it.
- * @size: get Size and specify it.
+ * @flags: Calculate available flags.
+ * @width: Get width.
+ * @precision: Get precision and specify it.
+ * @size: Get size and specify it.
  *
  * Return: number of chars printed.
  */
@@ -51,11 +51,11 @@ int flags, int precision, int width, int size)
 /**
  * write_number - Prints a string
  * @is_negative: List of arguments
- * @ind: char types.
+ * @ind: Char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
- * @precision: precision specifier
+ * @flags: Calculates active flags
+ * @width: Get width.
+ * @precision: Precision specifier
  * @size: Size specifier
  *
  * Return: Number of chars printed.
@@ -86,10 +86,10 @@ int flags, int width, int precision, int size)
  * @ind: Index at which the number starts on the buffer
  * @buffer: Buffer
  * @flags: Flags
- * @width: width
+ * @width: Width
  * @prec: Precision specifier
  * @length: Number length
- * @padd: Pading char
+ * @padd: Padding char
  * @extra_c: Extra char
  *
  * Return: Number of printed chars.

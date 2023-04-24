@@ -7,7 +7,7 @@
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
- * @width: get width
+ * @width: Get width
  * @precision: Precision specifier
  * @size: Size specifier
  * Return: Number of chars printed.
@@ -61,7 +61,7 @@ int print_pointer(va_list types, char buffer[],
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
- * @width: get width
+ * @width: Get width
  * @precision: Precision specificier
  * @size: Size specifier
  * Return: Number of chars printed
@@ -104,10 +104,10 @@ int print_non_printable(va_list types, char buffer[],
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculate active flags
- * @width: get width
+ * @width: Get width
  * @precision: Precision specifier
  * @size: Size specifier
- * Return: number of chars printed
+ * Return: Number of chars printed
  */
 
 int print_reverse(va_list types, char buffer[],
@@ -149,7 +149,7 @@ int print_reverse(va_list types, char buffer[],
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculate active flags
- * @width: get width
+ * @width: Get width
  * @precision: Precision specifier
  * @size: Size specifier
  * Return: Number of chars printed

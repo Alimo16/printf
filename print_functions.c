@@ -10,7 +10,7 @@
  * @width: Width
  * @precision: Precision specifier
  * @size: Size specifier
- * Return: number of chars printed
+ * Return: Number of chars printed
  */
 int print_char(va_list types, char buffer[], int flags,
 int width, int precision, int size)
@@ -26,8 +26,8 @@ int width, int precision, int size)
  * print_string - Prints a string
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
+ * @flags: Calculates active flags
+ * @width: Get width.
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
@@ -85,7 +85,7 @@ int width, int precision, int size)
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
- * @width: get width
+ * @width: Get width
  * @precision: Precision specificier
  * @size: Size specifier
  * Return: Number of chars printed
@@ -109,8 +109,8 @@ int width, int precision, int size)
  * print_int - Print int
  * @types: List of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
+ * @flags: Calculates active flags
+ * @width: Get width.
  * @precision: Precision specifier
  * @size: Size specifier
  * Return: Number of chars printed
@@ -155,8 +155,8 @@ int width, int precision, int size)
  * print_binary - Prints an unsigned number
  * @types: List of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
+ * @flags: Calculates active flags
+ * @width: Get width.
  * @precision: Precision specifier
  * @size: Size specifier
  * Return: Numbers of char printed.
